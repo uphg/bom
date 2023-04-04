@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.61">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>Carob</title><meta name="description" content="JavaScript 浏览器 API 合集">
+    <link rel="preload" href="/carob/assets/style-a16a9a3a.css" as="style"><link rel="stylesheet" href="/carob/assets/style-a16a9a3a.css">
+    <link rel="modulepreload" href="/carob/assets/app-863ba117.js"><link rel="modulepreload" href="/carob/assets/framework-5866ffd3.js"><link rel="modulepreload" href="/carob/assets/404.html-87d54bd8.js"><link rel="modulepreload" href="/carob/assets/404.html-60b35caa.js"><link rel="prefetch" href="/carob/assets/index.html-2394af98.js" as="script"><link rel="prefetch" href="/carob/assets/index.html-30954b6f.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>看起来我们进入了错误的链接</blockquote><a href="/carob/" class="">返回首页</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/carob/assets/app-863ba117.js" defer></script>
+  </body>
+</html>
